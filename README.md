@@ -10,7 +10,7 @@ Ease of Use: UniBioPAN provides three usage modes: web service, local training, 
 
 Overall, UniBioPAN is expected to reduce the development cost and experimental period of BP classification models and inspire the development of subsequent models.
 
-#UniBioPAN网址
-#python脚本使用
-#colab使用
+# UniBioPAN网址
+# python脚本使用
+# colab使用
 Please feel free to contact us if you have any questions or suggestions.
