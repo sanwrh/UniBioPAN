@@ -15,9 +15,9 @@ For users with limited resources or those who prefer a cloud-based solution, Uni
 
 1. Download Files: Obtain the necessary files from the GitHub repository.
 2. Environment Setup: Execute provided code to install the required environment within Colab.
-3. Parameter Configuration: Adjust parameters as needed and train your model.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/19xFTstVnUsp_Lr9iUdi1r5fP7TvY4Afr/view?usp=sharing)
-4. Prediction: Use the best-performing model to predict bioactivity on your input data.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gq0Qn-_PdKFZFr_LIxd-WWJBT3Mm1TP4?usp=sharing)
-https://drive.google.com/file/d/19xFTstVnUsp_Lr9iUdi1r5fP7TvY4Afr/view?usp=sharing
+3. Parameter Configuration: Adjust parameters as needed and train your model.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12X6TVjO1_6e5Llmfe0z-SPlKZNKPtJRe?usp=drive_link)
+4. Prediction: Use the best-performing model to predict bioactivity on your input data.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DexV7YoCTwO_W7RZZWhFooFf7z0T9wrA?usp=drive_link)
+
 ## Python Script (UniBioPANscript)
 For maximum flexibility and local execution, UniBioPANscript offers a powerful Python interface.
 
