@@ -15,21 +15,25 @@ For users with limited resources or those who prefer a cloud-based solution, Uni
 
 1. Download Files: Obtain the necessary files from the GitHub repository.
 2. Environment Setup: Execute provided code to install the required environment within Colab.
-3. Parameter Configuration: Adjust parameters as needed and train your model.
-4. Prediction: Use the best-performing model to predict bioactivity on your input data.
-
+3. Parameter Configuration: Adjust parameters as needed and train your model.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/19xFTstVnUsp_Lr9iUdi1r5fP7TvY4Afr/view?usp=sharing)
+4. Prediction: Use the best-performing model to predict bioactivity on your input data.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gq0Qn-_PdKFZFr_LIxd-WWJBT3Mm1TP4?usp=sharing)
+https://drive.google.com/file/d/19xFTstVnUsp_Lr9iUdi1r5fP7TvY4Afr/view?usp=sharing
 ## Python Script (UniBioPANscript)
 For maximum flexibility and local execution, UniBioPANscript offers a powerful Python interface.
 
 1. Environment Setup: Create a conda environment using the provided environment.yml file.
 2. Download Script: Obtain the UniBioPAN script files from GitHub.
 3. Command-Line Usage:
-Use python unibiopan.py -h to display the help information.
+   
+&emsp; &emsp; Use python unibiopan.py -h to display the help information.
 
-Train a model:
-   > python unibiopan.py -t -tf Dataset/train.xlsx -ef Dataset/test.xlsx
-Make predictions:
-   > python unibiopan.py -p -lp model/best_model.h5 -pf predict/input.xlsx
+&emsp; &emsp; Train a model:
+   
+         > python unibiopan.py -t -tf Dataset/train.xlsx -ef Dataset/test.xlsx
+
+&emsp; &emsp; Make predictions:
+
+         > python unibiopan.py -p -lp model/best_model.h5 -pf predict/input.xlsx
 
 ## Input/Output Formats
 1. Prediction Input: FASTA, CSV, or XLSX
@@ -37,4 +41,4 @@ Make predictions:
 3. Prediction Output: Table format, with 1 for predicted bioactive peptides, 0 for predicted inactive peptides, and 'x' for sequences that exceed the model's length limit or contain non-standard amino acids.
 
 ## Important Note
-&emsp&emspUniBioPAN predictions are based on computational models. Experimental validation is crucial to confirm the bioactivity of any peptide.
+&emsp; &emsp; UniBioPAN predictions are based on computational models. Experimental validation is crucial to confirm the bioactivity of any peptide.
