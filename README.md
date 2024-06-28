@@ -24,10 +24,11 @@ For maximum flexibility and local execution, UniBioPANscript offers a powerful P
 1. Environment Setup: Create a conda environment using the provided environment.yml file.
 2. Download Script: Obtain the UniBioPAN script files from GitHub.
 3. Command-Line Usage:
-  Use python unibiopan.py -h to display the help information.
-  Train a model:
+Use python unibiopan.py -h to display the help information.
+
+Train a model:
    > python unibiopan.py -t -tf Dataset/train.xlsx -ef Dataset/test.xlsx
-  Make predictions:
+Make predictions:
    > python unibiopan.py -p -lp model/best_model.h5 -pf predict/input.xlsx
 
 ## Input/Output Formats
@@ -36,4 +37,4 @@ For maximum flexibility and local execution, UniBioPANscript offers a powerful P
 3. Prediction Output: Table format, with 1 for predicted bioactive peptides, 0 for predicted inactive peptides, and 'x' for sequences that exceed the model's length limit or contain non-standard amino acids.
 
 ## Important Note
-UniBioPAN predictions are based on computational models. Experimental validation is crucial to confirm the bioactivity of any peptide.
+&emsp&emspUniBioPAN predictions are based on computational models. Experimental validation is crucial to confirm the bioactivity of any peptide.
